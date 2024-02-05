@@ -8,11 +8,22 @@ body, html {
   color: #f8f9fa; /* Light gray color for text */
 }
 
-#root {
+/* Style for the main content area */
+.main-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* Adjust as needed */
   align-items: center;
-  min-height: 100vh;
+  width: 100%; /* Full width */
+  /* Adjust the padding or margin as needed */
 }
 
+/* Additional global styles can go here */
+@media (max-width: 768px) {
+  .main-content {
+    /* Adjust styles for smaller screens */
+    padding: 20px;
+  }
+
+  /* Other responsive adjustments can go here */
+}

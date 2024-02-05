@@ -9,18 +9,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 const App = () => {
-  const [currentSection, setCurrentSection] = useState('about');
+    const [currentSection, setCurrentSection] = useState('about');
 
-  return (
-    <div className="App">
-      <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
-      {currentSection === 'about' && <AboutMe />}
-      {currentSection === 'portfolio' && <Portfolio />}
-      {currentSection === 'contact' && <Contact />}
-      {currentSection === 'resume' && <Resume />}
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
+            <div className="main-content"> {/* Main content wrapper */}
+                {currentSection === 'about' && <AboutMe />}
+                {currentSection === 'portfolio' && <Portfolio />}
+                {currentSection === 'contact' && <Contact />}
+                {currentSection === 'resume' && <Resume />}
+            </div>
+            <Footer />
+        </div>
+    );
 };
 
 export default App;
+
