@@ -1,3 +1,4 @@
+/* Style for Navbar */
 .navbar {
     display: flex;
     justify-content: center;
@@ -17,10 +18,20 @@
     margin: 0 20px;
 }
 
-/* Style for light mode with darker color */
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 30 30'%3E%3Cpath stroke='%23000' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+.active {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bolder; /* Optionally, make the font bold */
+    color: #007bff; /* Change to the desired active link text color */
+    border-bottom: 2px solid #007bff; /* Add a bottom border to the active link */
 }
+
+/* Add hover effects to the Navbar links */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: blue; /* Change the color to blue on hover */
+    transform: scale(1.25); /* Grow the text by 5% on hover */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add smooth transition */
+}
+
 
 /* Style for dark mode */
 @media (prefers-color-scheme: dark) {
@@ -28,4 +39,3 @@
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     }
 }
-
