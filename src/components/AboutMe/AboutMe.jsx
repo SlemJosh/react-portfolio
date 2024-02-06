@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import profileImage from '../../assets/profile.jpg'; // Correct path
+import profileImage from '../../assets/profile.jpg'; 
 
 const AboutMe = () => {
   return (

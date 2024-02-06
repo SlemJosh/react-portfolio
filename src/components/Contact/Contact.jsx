@@ -49,7 +49,6 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Add validation for the message box
     if (validateForm() && formData.message.trim() !== "") {
       emailjs
         .sendForm(

@@ -28,7 +28,7 @@ const Resume = () => {
         title="Resume"
         style={{
           width: "100%",
-          height: "calc(100vh - 50px)", // Adjust the height as needed
+          height: "calc(100vh - 50px)", 
         }}
       />
     </Container>

@@ -14,7 +14,7 @@ const App = () => {
     return (
         <div className="App">
             <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
-            <div className="main-content"> {/* Main content wrapper */}
+            <div className="main-content"> 
                 {currentSection === 'about' && <AboutMe />}
                 {currentSection === 'portfolio' && <Portfolio />}
                 {currentSection === 'contact' && <Contact />}

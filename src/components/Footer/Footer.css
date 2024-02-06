@@ -1,17 +1,17 @@
 footer {
     padding: 20px 0;
-    background-color: #f8f9fa; /* Light background, you can change as per your theme */
+    background-color: #f8f9fa; 
     display: flex;
-    justify-content: center; /* Aligns items horizontally at the center */
-    align-items: center; /* Aligns items vertically at the center */
+    justify-content: center; 
+    align-items: center; 
 }
 
 footer a {
-    color: #333; /* Dark text color, change as needed */
+    color: #333; 
     transition: color 0.3s ease;
-    margin: 0 50px; /* Adds margin to the left and right of each icon */
+    margin: 0 50px; 
 }
 
 footer a:hover {
-    color: #007bff; /* Highlight color on hover */
+    color: #007bff; 
 }

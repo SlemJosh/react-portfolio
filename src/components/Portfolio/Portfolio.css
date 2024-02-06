@@ -9,33 +9,33 @@
 }
 
 .card:hover {
-  transform: scale(1.05); /* Increase the size slightly on hover */
+  transform: scale(1.05); 
 }
 
 .row > [class^='col-'] {
-  padding-bottom: 10px; /* Adjust this value as needed */
+  padding-bottom: 10px; 
 }
 
 .card-img-top {
-  height: 200px; /* Adjust this height as needed */
-  object-fit: cover; /* Keeps the image aspect ratio */
+  height: 200px; 
+  object-fit: cover; 
 }
 
 .card-title {
-  margin-top: 10px; /* Adjust this margin as needed */
+  margin-top: 10px; 
 }
 
 .card-text {
-  margin-bottom: 10px; /* Adjust this margin as needed */
+  margin-bottom: 10px; 
 }
 
 .card-link {
   text-decoration: none;
-  color: #007bff; /* Set the initial link color */
-  transition: color 0.3s ease, transform 0.3s ease; /* Add smooth transition */
+  color: #007bff; 
+  transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 .card-link:hover {
-  color: purple; /* Change the link color on hover */
-  transform: scale(1.1); /* Grow the link text by 10% on hover */
+  color: purple; 
+  transform: scale(1.1); 
 }

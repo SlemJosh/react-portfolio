@@ -5,25 +5,23 @@ body, html {
   background-image: url('./assets/background.jpg');
   background-size: cover;
   background-position: center;
-  color: #f8f9fa; /* Light gray color for text */
+  color: #f8f9fa; 
 }
 
-/* Style for the main content area */
+
 .main-content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Adjust as needed */
+  justify-content: flex-start; 
   align-items: center;
   width: 100%; /* Full width */
-  /* Adjust the padding or margin as needed */
+  
 }
-
-/* Additional global styles can go here */
+/* Adjust styles for smaller screens */
 @media (max-width: 768px) {
   .main-content {
-    /* Adjust styles for smaller screens */
-    padding: 20px;
+        padding: 20px;
   }
 
-  /* Other responsive adjustments can go here */
+ 
 }

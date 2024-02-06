@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './Portfolio.css'; 
 
-// Import images
+
 import passwordImage from '../../assets/password.png';
 import weatherDashImage from '../../assets/weatherdash.png';
 import techBlogImage from '../../assets/techblog.png';

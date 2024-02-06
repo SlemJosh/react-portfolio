@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'; // Import the Twitter icon
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'; 
 import './Footer.css';
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faLinkedin} size="2x" className="mx-2" />
             </a>
             <a href="https://twitter.com/JGSlem" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faTwitter} size="2x" className="mx-2" /> {/* Replace 'your-twitter-handle' with your actual Twitter handle */}
+                <FontAwesomeIcon icon={faTwitter} size="2x" className="mx-2" /> 
             </a>
         </footer>
     );
