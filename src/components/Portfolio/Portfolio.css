@@ -1,0 +1,18 @@
+.card {
+  transition: transform 0.3s ease-in-out;
+  }
+
+.card:hover {
+  transform: scale(1.05); /* Increase the size slightly on hover */
+}
+
+.row > [class^='col-'] {
+    padding-bottom: 10px; /* Adjust this value as needed */
+}
+
+.card-img-top {
+    height: 200px; /* Adjust this height as needed */
+    object-fit: cover; /* Keeps the image aspect ratio */
+}
+
+

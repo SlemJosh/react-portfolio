@@ -1,0 +1,13 @@
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Light background, you can change as per your theme */
+}
+
+footer a {
+    color: #333; /* Dark text color, change as needed */
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff; /* Highlight color on hover */
+}
