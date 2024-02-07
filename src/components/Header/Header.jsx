@@ -8,11 +8,11 @@ const Header = ({ currentSection, setCurrentSection }) => {
   };
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" variant="light">
       <Navbar.Brand href="#about" onClick={handleBrandClick}>
         Joshua Grant Slem
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ border: '1px solid black' }} />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link
