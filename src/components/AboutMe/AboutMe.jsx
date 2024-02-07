@@ -7,7 +7,7 @@ const AboutMe = () => {
     <Container>
       <Row className="my-5">
         <Col md={6} className="text-center">
-        <Image src={profileImage} roundedCircle className="mb-3" />
+        <Image src={profileImage} roundedCircle className="mb-3 img-fluid" />
           <h2>Joshua Grant Slem</h2>
           <p className="lead">Imaginations Manifested</p>
           <h6>Junior Developer</h6>
