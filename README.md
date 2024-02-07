@@ -10,8 +10,6 @@ This project was about designing and coding a developers portfolio using the rea
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
