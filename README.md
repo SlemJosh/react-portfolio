@@ -21,19 +21,11 @@ View the deployed website [here](https://superb-twilight-477689.netlify.app/#abo
 ## Usage
 ![React Portfolio Screenshot](/src/assets/screenshot.png)
 
-None
 
 ## License
 
 This project is licensed under the MIT license. Click [here]([MIT License](https://opensource.org/licenses/MIT)) for more details.
 
-## Contributing
-
-None
-
-## Tests
-
-Tests are not required for this project.
 
 ## Questions
 
